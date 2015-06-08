@@ -1,0 +1,22 @@
+mysql> use demo;
+Database changed
+mysql> show tables;
++----------------+
+| Tables_in_demo |
++----------------+
+| demo           |
++----------------+
+1 row in set (0.04 sec)
+
+mysql> desc demo;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| id     | varchar(5)  | NO   | PRI | NULL    |       |
+| name   | varchar(20) | NO   |     | NULL    |       |
+| dob    | date        | YES  |     | NULL    |       |
+| salary | int(7)      | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+4 rows in set (0.28 sec)
+
+mysql>
